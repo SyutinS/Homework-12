@@ -9,11 +9,11 @@ public class Author {
         this.listName = authorSurName;
     }
 
-    public String getAuthorFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-    public String getAuthorSurName() {
+    public String getLastName() {
         return listName;
     }
 
