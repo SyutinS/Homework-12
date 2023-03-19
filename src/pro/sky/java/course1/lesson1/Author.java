@@ -4,9 +4,9 @@ public class Author {
     private final String firstName;
     private final String lastName;
 
-    public Author(String authorFirstName, String authorSurName) {
-        this.firstName = authorFirstName;
-        this.lastName = authorSurName;
+    public Author(String FirstName, String lastName) {
+        this.firstName = FirstName;
+        this.lastName = lastName;
     }
 
     public String getFirstName() {
