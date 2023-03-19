@@ -4,8 +4,8 @@ public class Author {
     private final String firstName;
     private final String lastName;
 
-    public Author(String FirstName, String lastName) {
-        this.firstName = FirstName;
+    public Author(String firstName, String lastName) {
+        this.firstName = firstName;
         this.lastName = lastName;
     }
 
