@@ -1,31 +1,24 @@
 package pro.sky.java.course1.lesson1;
 
-import jdk.dynalink.beans.StaticClass;
-
 public class Author {
-    private final String authorFirstName;
-    private final String authorSurName;
-    public static String authorName;
+    private final String firstName;
+    private final String listName;
 
     public Author(String authorFirstName, String authorSurName) {
-        this.authorFirstName = authorFirstName;
-        this.authorSurName = authorSurName;
+        this.firstName = authorFirstName;
+        this.listName = authorSurName;
     }
 
     public String getAuthorFirstName() {
-        return authorFirstName;
+        return firstName;
     }
 
     public String getAuthorSurName() {
-        return authorSurName;
-    }
-
-    public String getAuthor() {
-        return authorName;
+        return listName;
     }
 
     @Override
     public String toString() {
-        return authorFirstName + authorSurName;
+        return firstName + " " + listName;
     }
 }
