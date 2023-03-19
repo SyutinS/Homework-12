@@ -2,11 +2,11 @@ package pro.sky.java.course1.lesson1;
 
 public class Author {
     private final String firstName;
-    private final String listName;
+    private final String lastName;
 
     public Author(String authorFirstName, String authorSurName) {
         this.firstName = authorFirstName;
-        this.listName = authorSurName;
+        this.lastName = authorSurName;
     }
 
     public String getFirstName() {
@@ -14,11 +14,11 @@ public class Author {
     }
 
     public String getLastName() {
-        return listName;
+        return lastName;
     }
 
     @Override
     public String toString() {
-        return firstName + " " + listName;
+        return firstName + " " + lastName;
     }
 }
