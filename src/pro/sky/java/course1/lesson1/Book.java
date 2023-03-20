@@ -1,20 +1,20 @@
 package pro.sky.java.course1.lesson1;
 
 public class Book {
-    private final String bookName;
+    private final String name;
 
     private final Author author;
 
     private int publishingYear;
 
-    public Book(String bookName, Author author, int publishingYear) {
-        this.bookName = bookName;
+    public Book(String name, Author author, int publishingYear) {
+        this.name = name;
         this.author = author;
         this.publishingYear = publishingYear;
     }
 
-    public String getBookName() {
-        return bookName;
+    public String getName() {
+        return name;
     }
 
     public Author getAuthor() {
