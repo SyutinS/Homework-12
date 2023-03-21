@@ -3,9 +3,9 @@ package pro.sky.java.course1.lesson1;
 public class Main {
 
     public static void main(String[] args) {
-        Author author1 = new Author("Имя1", "Фамиля1");
-        Author author2 = new Author("Имя2", "Фамиля2");
-        Author author3 = new Author("Имя1", "Фамиля1");
+        Author author1 = new Author("Имя1", "Фамилия1");
+        Author author2 = new Author("Имя2", "Фамилия2");
+        Author author3 = new Author("Имя1", "Фамилия1");
         Book book1 = new Book("Название1", author1, 1111);
         Book book2 = new Book("Название2", author2, 2222);
         Book book3 = new Book("Название1", author3, 1111);
